@@ -19,6 +19,11 @@ def divide(x, y):
         raise ValueError("0으로 나눌 수 없습니다.")
     return x / y
 
+def power(x, y):
+    return x ** y
+
+def mod(x, y):
+    return x % y
 
 # 사용 예시
 a = 5
@@ -28,3 +33,5 @@ print("더하기:", add(a, b))
 print("빼기:", subtract(a, b))
 print("곱하기:", multiply(a, b))
 print("나누기:", divide(a, b))
+print("POWER:", power(a, b))
+print("MOD:", mod(a, b))
